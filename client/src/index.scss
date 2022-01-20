@@ -1,0 +1,17 @@
+@import "../node_modules/materialize-css/sass/materialize";
+input {
+    .yellow-input {
+        border-bottom: 1px solid #fff!important;
+        box-sizing: 0 1px 0 0 #fff!important;
+    }
+    .yellow-input+label {
+        color: #fff!important;
+    }
+    .yellow-input:focus {
+        color: #ffeb3b!important;
+    }
+    .yellow-input:focus+label {
+        border-bottom: 1px solid #ffeb3b!important;
+        box-sizing: 0 1px 0 0 #ffeb3b!important;
+    }
+}
